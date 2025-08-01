@@ -1,0 +1,23 @@
+.autocomplete-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-input {
+  width: 600px;
+  padding: 5px;
+}
+.options-container {
+  border: 1px solid black;
+  width: 600px;
+  padding: 5px;
+  height: 400px;
+  overflow-y: scroll;
+}
+.options {
+  display: block;
+  padding: 5px;
+
+  cursor: pointer;
+  width: 600px;
+}
